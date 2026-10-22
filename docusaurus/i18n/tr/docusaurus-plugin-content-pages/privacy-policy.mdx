@@ -3,40 +3,99 @@ title: Gizlilik Politikası
 description: Livo Player gizlilik politikası.
 ---
 
-Son güncelleme: 2025
+**Son güncelleme:** 22 Ekim 2026
 
-Bu sayfa, Livo uygulamasının gizlilik yaklaşımını açıklar. Livo, kullanıcının kendi IPTV
-listelerini (M3U ve Xtream) oynatmasını sağlayan kişisel bir medya oynatıcıdır. Uygulama
-herhangi bir içerik, kanal veya abonelik sunmaz ve kullanıcı listelerini üçüncü taraflarla
-paylaşmaz.
+Bu sayfa Livo'nun hangi verileri neden topladığını ve bunları nasıl kontrol edebileceğinizi
+açıklar. Livo; iPhone, iPad, Apple TV ve Android'de kendi M3U ve Xtream Codes listelerinizi ve
+medya kaynaklarınızı oynatmanızı sağlayan kişisel bir medya oynatıcıdır. Uygulama IPTV içeriği,
+kanal ya da içerik aboneliği sunmaz. Listelerinizi satmaz ve üçüncü taraflarla paylaşmaz.
 
-## 1. Toplanan Veriler
+## 1. Toplamadığımız Veriler
 
-Livo doğrudan isim, e-posta veya benzeri kişisel bilgi toplamaz. Bazı üçüncü taraf hizmetler
-anonim cihaz ve kullanım verilerini toplayabilir.
+Livo'da kullanıcı hesabı yoktur. Adınızı, e-posta adresinizi, telefon numaranızı, rehberinizi,
+tam konumunuzu veya ödeme bilgilerinizi istemeyiz ve toplamayız.
 
-Aşağıdaki hizmetler kullanılabilir:
+- **Liste şifreleri:** IPTV kullanıcı adı ve şifreleri yalnızca cihazınızda (iOS Keychain veya
+  Android'deki karşılığı) saklanır, log'larda ve çökme raporlarında maskelenir.
+- **İzlemeye Devam ve ayar senkronu:** Apple cihazlarda kendi iCloud hesabınızda tutulur, bizim
+  erişimimiz yoktur.
+- **Satın almalar:** premium abonelikler Apple (App Store) veya Google (Google Play) tarafından
+  işlenir. Ödeme bilgilerinizi hiçbir zaman görmeyiz.
 
-- Firebase Analytics, kullanım istatistikleri ve ekran olayları için.
-- Firebase Crashlytics, çökme raporları ve anonim cihaz tanımlayıcıları için.
-- Google AdMob, reklam gösterimi, tıklama ve cihaz reklam tanımlayıcıları için.
+## 2. Üçüncü Taraf Hizmetlerin Topladığı Veriler
 
-## 2. Verilerin Kullanım Amaçları
+Livo aşağıdaki hizmetleri kullanır. Bunlar kimliğinize bağlanmayan anonim cihaz ve kullanım
+verileri toplar.
 
-Toplanan anonim veriler, hangi özelliklerin daha çok kullanıldığını anlamamıza, hataları takip
-etmemize ve uygulama deneyimini iyileştirmemize yardımcı olur.
+- **Firebase Analytics:** ziyaret edilen ekranlar, oynatma olayları ve uygulama ayarları (ör. dil,
+  tema, abonelik durumu) gibi kullanım istatistikleri; cihaz modeli, işletim sistemi sürümü ve
+  yaklaşık bölge.
+- **Firebase Crashlytics:** anonim bir kurulum tanımlayıcısıyla çökme raporları ve tanılama
+  verileri.
+- **Firebase Performance Monitoring:** açılış ve ağ süreleri gibi performans verileri.
+- **Firebase Remote Config:** uygulama yapılandırmasını indirir; anonim bir kurulum tanımlayıcısı
+  kullanır.
+- **Google AdMob** (iPhone, iPad ve Android; Apple TV'de ve premium kullanıcılarda reklam yoktur):
+  reklam gösterimleri ve tıklamaları, IP adresinden çıkarılan yaklaşık konum ve yalnızca izin
+  verirseniz cihazınızın reklam tanımlayıcısı (IDFA/AAID).
 
-## 3. Veri Paylaşımı
+Bu hizmetler verileri kendi gizlilik politikalarına göre işler:
+[Google Gizlilik Politikası](https://policies.google.com/privacy?hl=tr) ve
+[Google, hizmetlerini kullanan uygulamalardaki bilgileri nasıl kullanır](https://policies.google.com/technologies/partner-sites?hl=tr).
 
-Livo geliştiricileri kullanıcı verilerini satmaz veya kiralamaz. Firebase ve AdMob gibi üçüncü taraf
-hizmetler anonim verileri kendi gizlilik politikalarına göre işler.
+## 3. Livo'nun Kendi Sunucularına Giden Veriler
 
-## 4. App Tracking Transparency
+Bazı özellikler kendi sunucularımızla (`api.livoplayer.com`, `qr.livoplayer.com`) konuşur:
 
-iOS 14.5 ve üzeri sürümlerde, Apple'ın ATT çerçevesi reklam tanımlayıcılarına erişmek için izin ister.
-Kullanıcı bu izni istediği zaman sistem ayarlarından değiştirebilir.
+- **Film ve dizi bilgisi:** afiş, açıklama ve oyuncuları göstermek için uygulama açtığınız
+  içeriğin adını gönderir. Sonuçlar cihazınızda önbelleğe alınır.
+- **Güvenli oynatma bağlantısı:** bazı yayınlar şifrelenmemiş HTTP kullanır. Bunlar için uygulama,
+  güvenli bir oynatma bağlantısı almak üzere yayın adresini sunucumuza gönderir.
+- **QR ile eşleştirme (Apple TV):** Apple TV'ye QR kodla liste eklediğinizde, telefonda girdiğiniz
+  liste bilgileri yalnızca Apple TV'nize iletilmek için sunucumuzdan geçer.
 
-## 5. IPTV İçeriği
+Bu verileri yalnızca bu özellikleri sağlamak için kullanırız. Reklam veya analitik için
+kullanmayız, satmayız ve paylaşmayız.
 
-Livo hiçbir IPTV içeriği barındırmaz, kanal sunmaz ve oynatma listelerini kendi sunucularında saklamaz.
-Tüm içerikler kullanıcı tarafından sağlanır ve içeriklerin yasallığından kullanıcı sorumludur.
+## 4. Seçenekleriniz
+
+- **Analitikten çıkma:** Firebase Analytics'e kullanım istatistiği gönderimini durdurmak için
+  **Ayarlar > Gizlilik > Anonim Kullanım Verisi Paylaş** seçeneğini kapatın.
+- **Reklam izni (AEA, Birleşik Krallık ve İsviçre):** ilk açılışta, herhangi bir reklam
+  yüklenmeden önce Google'ın izin formu gösterilir. Tercihinizi istediğiniz zaman
+  **Ayarlar > Gizlilik > Reklam Gizlilik Tercihleri** bölümünden değiştirebilirsiniz.
+- **App Tracking Transparency (iOS ve iPadOS):** Livo, AdMob'un reklam tanımlayıcınızı
+  kullanabilmesi için izin ister. İzin verseniz de vermeseniz de Livo aynı şekilde çalışır. Bu
+  izni istediğiniz zaman sistem ayarlarından (**Ayarlar > Gizlilik ve Güvenlik > Takip**)
+  değiştirebilirsiniz.
+- **Android:** reklam kimliğinizi sistem ayarlarından sıfırlayabilir veya silebilirsiniz.
+
+## 5. Verilerin Kullanım Amaçları
+
+Toplanan verileri hangi özelliklerin kullanıldığını anlamak, çökmeleri bulup düzeltmek,
+uygulamayı hızlı tutmak, uygulamayı uzaktan yapılandırmak ve premium olmayan kullanıcılara reklam
+göstermek için kullanırız.
+
+## 6. Saklama Süresi
+
+Analitik ve çökme verileri, Firebase ve AdMob'da tanımlı süreler boyunca Google tarafından
+saklanır. Cihazınızdaki veriler uygulamayı sildiğinizde silinir.
+
+## 7. Çocuklar
+
+Livo 13 yaşından küçük çocuklara yönelik değildir ve bilerek onlardan veri toplamaz.
+
+## 8. IPTV İçeriği
+
+Livo hiçbir IPTV içeriği barındırmaz ve kanal sunmaz. Tüm içerikler kullanıcı tarafından sağlanır
+ve eklenen içerikten kullanıcı sorumludur.
+
+## 9. Politikadaki Değişiklikler
+
+Uygulama değiştikçe bu politikayı güncelleyebiliriz. Sayfanın başındaki tarih en güncel sürümü
+gösterir.
+
+## 10. İletişim
+
+Gizlilikle ilgili sorularınız için [livoiptv@gmail.com](mailto:livoiptv@gmail.com) adresine
+yazabilirsiniz.
