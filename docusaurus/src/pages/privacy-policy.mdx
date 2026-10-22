@@ -1,45 +1,102 @@
 ---
 title: Privacy Policy
-description: Livo privacy policy for the personal IPTV player.
+description: Livo privacy policy for the personal media and IPTV player.
 ---
 
-**Last Updated:** 2025
+**Last Updated:** October 22, 2026
 
-This page explains how Livo handles privacy. Livo is a personal IPTV player that lets you
-play your own M3U and Xtream Codes playlists on your device. The app does not provide
-IPTV content, channels, or subscriptions, and it never shares your playlists with third
-parties.
+This page explains what data Livo collects, why, and how you can control it. Livo is a
+personal media player that plays your own M3U and Xtream Codes playlists and media sources
+on iPhone, iPad, Apple TV and Android. The app does not provide IPTV content, channels, or
+subscriptions to content, and it never sells or shares your playlists with third parties.
 
-## 1. Collected Data
+## 1. Data We Do Not Collect
 
-Livo does not collect personal identifiers such as names or email addresses. The app may
-rely on third-party services that gather anonymous device and usage data to keep track of
-performance and stability.
+Livo has no user accounts. We do not ask for or collect your name, email address, phone
+number, contacts, precise location, or payment details.
 
-Livo may integrate:
+- **Playlist credentials:** IPTV usernames and passwords are stored on your device only
+  (in the iOS Keychain or the Android equivalent) and are masked in logs and crash reports.
+- **Continue Watching and settings sync:** on Apple devices this is stored in your own
+  iCloud account, which we cannot access.
+- **Purchases:** premium subscriptions are processed by Apple (App Store) or Google
+  (Google Play). We never see your payment details.
 
-- Firebase Analytics for usage statistics and screen events.
-- Firebase Crashlytics for crash reports and anonymous device identifiers.
-- Google AdMob for ad impressions, clicks, and device ad IDs (IDFA/AAID).
+## 2. Data Collected by Third-Party Services
 
-## 2. Purpose of Processing
+Livo uses the following services. They collect anonymous device and usage data that is not
+linked to your identity.
 
-The collected anonymous data helps us understand feature usage, monitor crashes, and
-improve the app experience while keeping the app lightweight and secure.
+- **Firebase Analytics:** usage statistics such as screens visited, playback events and
+  app settings (for example language, theme and subscription state), plus device model, OS
+  version and approximate region.
+- **Firebase Crashlytics:** crash reports and diagnostic data, with an anonymous
+  installation identifier.
+- **Firebase Performance Monitoring:** app performance data such as start-up and network
+  timings.
+- **Firebase Remote Config:** fetches app configuration; it uses an anonymous installation
+  identifier.
+- **Google AdMob** (iPhone, iPad and Android; there are no ads on Apple TV and no ads for
+  premium users): ad impressions and clicks, approximate location derived from your IP
+  address, and, only if you allow it, your device's advertising identifier (IDFA/AAID).
 
-## 3. Data Sharing
+These services process data under their own privacy policies:
+[Google Privacy Policy](https://policies.google.com/privacy) and
+[How Google uses information from apps that use its services](https://policies.google.com/technologies/partner-sites).
 
-Livo developers do not sell or rent user information to third parties. Third-party
-services (Firebase, AdMob) process anonymous data according to their own privacy policies.
+## 3. Data Sent to Livo's Own Servers
 
-## 4. App Tracking Transparency
+Some features talk to our own servers (`api.livoplayer.com`, `qr.livoplayer.com`):
 
-On iOS 14.5 and later, Apple’s ATT framework requires user permission before collecting
-advertising identifiers or tracking across apps. Users can grant or revoke this
-permission at any time from system settings.
+- **Movie and series information:** to show posters, descriptions and cast, the app sends
+  the title of the content you open. Results are cached on your device.
+- **Secure playback links:** some streams use plain, unencrypted HTTP. For these, the app
+  sends the stream address to our server to get a secure playback link.
+- **QR pairing (Apple TV):** when you add a playlist to Apple TV by scanning a QR code, the
+  playlist details you enter on your phone pass through our server only to deliver them to
+  your Apple TV.
 
-## 5. IPTV Content
+We use this data only to provide these features. We do not use it for advertising or
+analytics, and we do not sell or share it.
 
-Livo hosts no IPTV content, offers no channels, and does not store playlists or stream
-details on its servers. All content is provided directly by the user, and the user is fully
-responsible for the content they add.
+## 4. Your Choices
+
+- **Analytics opt-out:** turn off **Settings > Privacy > Share Anonymous Usage Data** to
+  stop sending usage statistics to Firebase Analytics.
+- **Ad consent (EEA, UK and Switzerland):** on first launch Livo shows Google's consent
+  form before any ad loads. You can change your choice at any time in
+  **Settings > Privacy > Ad Privacy Choices**.
+- **App Tracking Transparency (iOS and iPadOS):** Livo asks for permission before AdMob may
+  use your advertising identifier. Livo works the same whether you allow it or not, and you
+  can change this at any time in the system settings
+  (**Settings > Privacy & Security > Tracking**).
+- **Android:** you can reset or delete your advertising ID in the system settings.
+
+## 5. Purpose of Processing
+
+We use the collected data to understand which features are used, find and fix crashes,
+keep the app fast, configure the app remotely, and show ads to users who do not have
+premium.
+
+## 6. Data Retention
+
+Analytics and crash data are kept by Google for the retention periods set in Firebase and
+AdMob. Data on your device is deleted when you remove the app.
+
+## 7. Children
+
+Livo is not directed at children under 13 and does not knowingly collect data from them.
+
+## 8. IPTV Content
+
+Livo hosts no IPTV content and offers no channels. All content is provided by the user,
+and the user is fully responsible for the content they add.
+
+## 9. Changes to This Policy
+
+We may update this policy when the app changes. The date at the top shows the latest
+version.
+
+## 10. Contact
+
+For privacy questions, write to [livoiptv@gmail.com](mailto:livoiptv@gmail.com).
