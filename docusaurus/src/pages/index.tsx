@@ -5,6 +5,7 @@ import Head from '@docusaurus/Head';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import HeroVisual from '@site/src/components/HeroVisual';
 import StoreBadges from '@site/src/components/StoreBadges';
+import {softwareApplicationJsonLd} from '@site/src/components/storeLinks';
 import styles from './index.module.css';
 
 const SyncVisual = lazy(() => import('@site/src/components/SyncVisual'));
@@ -108,6 +109,9 @@ export default function Home(): JSX.Element {
         <meta name="twitter:image" content="https://www.livoplayer.com/img/livo-logo.png" />
         <meta name="twitter:site" content="@LivoPlayer" />
         <meta name="twitter:creator" content="@LivoPlayer" />
+        <script type="application/ld+json">
+          {JSON.stringify(softwareApplicationJsonLd(content.description, locale))}
+        </script>
       </Head>
       <main className={styles.page}>
         <section className={styles.heroSection}>

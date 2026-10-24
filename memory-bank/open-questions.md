@@ -15,3 +15,7 @@
 
 - Docker build validation was blocked locally when the Docker daemon was unavailable.
 - If container behavior changes again, rerun an actual `docker buildx build` with a live daemon.
+
+## App Store campaign provider token (#12)
+
+- `APP_STORE_PROVIDER_TOKEN` in `docusaurus/src/components/storeLinks.ts` is empty; Apple counts `ct` campaigns only with `pt`. mASUm to supply it from App Store Connect > Analytics > Campaigns.

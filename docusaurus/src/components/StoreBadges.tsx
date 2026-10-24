@@ -1,5 +1,7 @@
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+import {useLocation} from '@docusaurus/router';
+import {appStoreUrl, campaignForPath, playStoreUrl} from './storeLinks';
 
 type SupportedLocale = 'en' | 'tr';
 
@@ -53,11 +55,12 @@ export default function StoreBadges({className}: Props): JSX.Element {
   const locale = normalizeLocale(i18n.currentLocale);
   const badges = BADGE_MAP[locale];
   const withBaseUrl = useBaseUrl;
+  const campaign = campaignForPath(useLocation().pathname);
 
   return (
     <div className={className}>
       <a
-        href="https://apps.apple.com/tr/app/livo-iptv/id6755977918"
+        href={appStoreUrl(campaign)}
         target="_blank"
         rel="noopener noreferrer"
         aria-label={badges.labels.appStore}
@@ -73,7 +76,7 @@ export default function StoreBadges({className}: Props): JSX.Element {
         </picture>
       </a>
       <a
-        href="https://play.google.com/store/apps/details?id=com.livo.android"
+        href={playStoreUrl(campaign)}
         target="_blank"
         rel="noopener noreferrer"
         aria-label={badges.labels.googlePlay}
