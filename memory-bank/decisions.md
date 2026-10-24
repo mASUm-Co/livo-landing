@@ -134,3 +134,18 @@ Impact:
 - Turkish localized content must use proper Turkish characters by default.
 - ASCII transliteration is not an acceptable fallback for normal TR copy in blog, docs, pages, or translation JSON files.
 - Any future content pass touching `docusaurus/i18n/tr/` should include a final Turkish spelling and diacritics review before completion.
+
+### Store links carry campaign data; JSON-LD is rendered as Head children (#12)
+
+Status: accepted
+
+Reason:
+
+- Installs coming from the site could not be told apart in App Store Connect or Play Console.
+- `<script dangerouslySetInnerHTML>` inside `<Head>` is not server-rendered by Docusaurus, so structured data only existed after JavaScript ran.
+
+Impact:
+
+- Store URLs are built only in `docusaurus/src/components/storeLinks.ts`: App Store `ct=lp-<page>` (+ `pt` once `APP_STORE_PROVIDER_TOKEN` is set), Play `referrer=utm_source=livoplayer&utm_medium=web&utm_campaign=lp-<page>`. Both locales share the campaign name.
+- JSON-LD goes inside `<Head>` as `<script type="application/ld+json">{JSON.stringify(...)}</script>`. Home and SEO pages carry `SoftwareApplication` (no `aggregateRating` while ratings are few).
+- `apple-itunes-app` Smart App Banner meta is set globally via `headTags`.

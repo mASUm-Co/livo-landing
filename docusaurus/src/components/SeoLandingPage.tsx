@@ -6,6 +6,7 @@ import HeroVisual from '@site/src/components/HeroVisual';
 import {seoLandingPages, type SeoPageKey} from '@site/src/content/seoLandingPages';
 import styles from '../pages/iptv-player.module.css';
 import StoreBadges from './StoreBadges';
+import {softwareApplicationJsonLd} from './storeLinks';
 
 type Props = {
   pageKey: SeoPageKey;
@@ -24,23 +25,23 @@ export default function SeoLandingPage({pageKey}: Props): JSX.Element {
     <Layout title={page.title} description={page.description}>
       <Head>
         <meta name="description" content={page.description} />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              '@context': 'https://schema.org',
-              '@type': 'FAQPage',
-              mainEntity: page.faqs.map((item) => ({
-                '@type': 'Question',
-                name: item.question,
-                acceptedAnswer: {
-                  '@type': 'Answer',
-                  text: item.answer,
-                },
-              })),
-            }),
-          }}
-        />
+        <script type="application/ld+json">
+          {JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'FAQPage',
+            mainEntity: page.faqs.map((item) => ({
+              '@type': 'Question',
+              name: item.question,
+              acceptedAnswer: {
+                '@type': 'Answer',
+                text: item.answer,
+              },
+            })),
+          })}
+        </script>
+        <script type="application/ld+json">
+          {JSON.stringify(softwareApplicationJsonLd(page.description, locale))}
+        </script>
       </Head>
       <main className={styles.page}>
         <section className={styles.heroSection}>

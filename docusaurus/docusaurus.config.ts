@@ -59,6 +59,13 @@ const config: Config = {
       } satisfies Preset.Options,
     ],
   ],
+  // iOS Safari Smart App Banner (#12).
+  headTags: [
+    {
+      tagName: 'meta',
+      attributes: {name: 'apple-itunes-app', content: 'app-id=6755977918'},
+    },
+  ],
   clientModules: ['./src/clientModules/lazyGtag.ts'],
   themeConfig: {
     image: 'img/livo-logo.png',
