@@ -30,3 +30,7 @@
 /zh/privacy-policy.html /privacy-policy 301
 /zh/terms /terms 301
 /zh/terms.html /terms 301
+
+# v0.9.0 was never released; its notes are part of v0.10.0.
+/blog/v0-9-0-release-notes /blog/v0-10-0-release-notes 301
+/tr/blog/v0-9-0-release-notes /tr/blog/v0-10-0-release-notes 301

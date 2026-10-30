@@ -1,19 +1,24 @@
 ---
-slug: v0-9-0-release-notes
-title: What's new in Livo Player v0.9.0 for iPhone, iPad and Apple TV
+slug: v0-10-0-release-notes
+title: What's new in Livo Player v0.10.0 for iPhone, iPad and Apple TV
 authors: []
 tags: [release-notes, ios, tvos]
 ---
 
-Livo Player v0.9.0 for iPhone, iPad and Apple TV brings a redesigned player, richer movie and series details, more reliable Continue Watching sync, steadier live streams and new privacy controls.
+Livo Player v0.10.0 for iPhone, iPad and Apple TV brings a redesigned player, Picture in Picture, richer movie and series details, more reliable Continue Watching sync, steadier live streams and new privacy controls.
 
 <!-- truncate -->
 
 This is our biggest iOS and tvOS update so far. Most of the work went into the moments you notice every day: starting a stream, picking up where you left off, moving to the next episode and switching between your devices. Under the hood, playback, storage and subscriptions were rebuilt on a cleaner foundation that the next releases will build on.
 
+v0.10.0 also includes everything we had planned for v0.9.0, which was never released on its own.
+
 ## Player
 
 - A **redesigned player** on iPhone and iPad with cleaner controls: quality, audio and subtitle buttons sit in the top-right corner, and the time counters sit next to Previous/Next.
+- **Picture in Picture** on iPhone and iPad: keep watching in a floating window while you use other apps.
+- **Smoother switching between episodes** with Previous/Next.
+- **More stream formats** play out of the box.
 - An **up-next countdown** for the next episode, on both iOS and tvOS, so series keep playing without extra taps.
 - An **in-player Overview** with the poster and a short summary of what you are watching.
 - Movies and episodes **resume from where you left off** more reliably, with both the Apple player and the VLC engine.
@@ -22,7 +27,7 @@ This is our biggest iOS and tvOS update so far. Most of the work went into the m
 ## Live TV
 
 - **Fewer stalls and freezes** on live streams, including on less stable sources. If a playlist proxy fails, Livo falls back to the direct source.
-- **Automatic Quality** is now on by default and can switch between quality variants of the same channel.
+- A smarter **Automatic Quality** is now on by default and can switch between quality variants of the same channel.
 - On Apple TV, **audio stays in sync with HomePod and AirPlay speakers** after pause and play, and live audio no longer sounds thin or sped up.
 
 ## Movies and series
@@ -31,7 +36,7 @@ This is our biggest iOS and tvOS update so far. Most of the work went into the m
 - **iPad gets its own layout** for movie details, and the iPhone landscape layout was cleaned up.
 - Series details now match movie details, with the episode name and overview in the header.
 - **Watched** and **Watchlist** states update instantly and are available from long-press menus on both iOS and tvOS.
-- Movie and series lists are sorted the same way on iPhone, iPad and Apple TV, and **Recently Added** uses the date content actually arrived in your playlist.
+- Continue Watching and the Movie and Series lists behave the same way on iPhone, iPad and Apple TV, and **Recently Added** uses the date content actually arrived in your playlist.
 
 ## Continue Watching
 
@@ -55,4 +60,4 @@ This is our biggest iOS and tvOS update so far. Most of the work went into the m
 - Movie and series caches now have size limits, and saved data is written more safely.
 - Many smaller fixes for crashes, layout issues and playback edge cases.
 
-v0.9.0 is available on the App Store for iPhone, iPad and Apple TV. As always, Livo plays your own M3U and Xtream Codes playlists and does not provide any content or channels.
+v0.10.0 is coming to the App Store for iPhone, iPad and Apple TV. As always, Livo plays your own M3U and Xtream Codes playlists and does not provide any content or channels.
