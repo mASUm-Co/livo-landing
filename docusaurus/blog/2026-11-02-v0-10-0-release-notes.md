@@ -60,4 +60,4 @@ v0.10.0 also includes everything we had planned for v0.9.0, which was never rele
 - Movie and series caches now have size limits, and saved data is written more safely.
 - Many smaller fixes for crashes, layout issues and playback edge cases.
 
-v0.10.0 is coming to the App Store for iPhone, iPad and Apple TV. As always, Livo plays your own M3U and Xtream Codes playlists and does not provide any content or channels.
+v0.10.0 is now rolling out on the [App Store](https://apps.apple.com/app/id6755977918?ct=blog-v0-10-0&mt=8) for iPhone, iPad and Apple TV. If you don't see the update yet, open Livo's page on the App Store and tap Update. As always, Livo plays your own M3U and Xtream Codes playlists and does not provide any content or channels.

@@ -60,4 +60,4 @@ v0.10.0, tek başına hiç yayınlanmayan v0.9.0 için planladığımız her şe
 - Film ve dizi önbelleklerine boyut sınırı getirildi, kaydedilen veriler daha güvenli yazılıyor.
 - Çökme, görünüm ve oynatma kenar durumlarında birçok küçük düzeltme.
 
-v0.10.0 yakında iPhone, iPad ve Apple TV için App Store'da. Livo her zaman olduğu gibi yalnızca kendi M3U ve Xtream Codes playlist'lerinizi oynatır; herhangi bir içerik ya da kanal sağlamaz.
+v0.10.0, iPhone, iPad ve Apple TV için [App Store](https://apps.apple.com/app/id6755977918?ct=blog-v0-10-0&mt=8)'da kademeli olarak yayına giriyor. Güncellemeyi henüz görmüyorsanız App Store'da Livo sayfasını açıp Güncelle'ye dokunun. Livo her zaman olduğu gibi yalnızca kendi M3U ve Xtream Codes playlist'lerinizi oynatır; herhangi bir içerik ya da kanal sağlamaz.
