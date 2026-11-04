@@ -10,3 +10,4 @@ Use this guide as the starting point for installing Livo Player and preparing yo
 - [Install and open Livo](/docs/getting-started/install-and-open)
 - [Add an Xtream account](/docs/getting-started/add-xtream-account)
 - [Add an M3U playlist](/docs/getting-started/add-m3u-playlist)
+- [Apple TV and the remote](/docs/usage/apple-tv-remote)

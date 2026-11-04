@@ -4,17 +4,28 @@ sidebar_position: 2
 
 # Install and open Livo
 
-Use this article as the first-step guide for new users.
+## Install
 
-## Recommended flow
+- **iPhone, iPad and Apple TV**: download Livo Player from the App Store. One download covers iPhone, iPad and Apple TV.
+- **Android phones, tablets and Android TV**: download Livo Player from Google Play.
 
-1. Install Livo from the App Store or Google Play.
-2. Open the app and review the onboarding screens.
-3. Continue to playlist setup.
+## First launch
 
-## What to explain here later
+1. Open Livo. A short introduction shows the main areas of the app. Tap **Skip** or **Get Started** when you are ready.
+2. On iPhone and iPad you may be asked about ad personalization (ad consent and App Tracking Transparency). Your choice does not affect playback. You can change it later, see [Privacy and settings](/docs/privacy-and-settings).
+3. Livo has no built-in playlist. Add your own source from **IPTV Sources**:
+   - [Add an M3U playlist](/docs/getting-started/add-m3u-playlist)
+   - [Add an Xtream Codes account](/docs/getting-started/add-xtream-account)
 
-- supported platforms
-- minimum OS versions
-- onboarding permissions
-- first-run expectations
+No sign-up is needed to use Livo.
+
+## The Home screen
+
+After your source loads, Home shows:
+
+- **Live**, **Movies** and **Series** cards to open each library
+- **Continue Watching** for anything you started
+- **Recently Added** movies and series from your playlist
+- **Settings** and your **Account & Subscription**
+
+Livo refreshes your playlist automatically when you open the app, at most once a day. You can refresh it any time from **Settings → Account → Refresh Channel List**.
