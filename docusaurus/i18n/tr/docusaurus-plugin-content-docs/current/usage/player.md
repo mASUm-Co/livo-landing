@@ -6,6 +6,8 @@ sidebar_position: 6.5
 
 ## İki oynatma motoru
 
+<DocScreenshot shot="tv-03-player" alt="Apple TV'de kontrolleri açık Livo oynatıcısı" caption="Apple TV'de oynatıcı" />
+
 Livo çoğu yayını cihazın kendi oynatıcısıyla oynatır. Bir yayın bu oynatıcının açamadığı bir biçimdeyse Livo kendiliğinden ikinci motora (VLC) geçer. HLS, MP4, MKV ve yaygın yayın biçimlerinin çoğu doğrudan oynar.
 
 ## Ses ve altyazı
@@ -13,6 +15,8 @@ Livo çoğu yayını cihazın kendi oynatıcısıyla oynatır. Bir yayın bu oyn
 - Parçaları değiştirmek için ses ve altyazı düğmelerini kullanın (Apple TV'de bilgi panelindeki **Ses ve Altyazı** sekmesi). Parça listelerinde dil ve ses kodeki görünür.
 - Otomatik açılacak parçaları **Ayarlar → Oynatma → Varsayılan ses dili** ve **Varsayılan altyazı dili** ile belirleyin. Oynatma başlarken uygulanırlar.
 - Altyazıların görünümünü **Ayarlar → Altyazı Görünümü**'nden değiştirin; bkz. [Görünüm ve dil](/docs/usage/appearance-and-theme).
+
+<DocScreenshot shot="tv-player-tracks" alt="Apple TV'de birden fazla ses ve altyazı diliyle Ses ve Altyazı sekmesinde açık bilgi paneli" caption="Bilgi panelinde Ses ve Altyazı" />
 
 ## Oynatma hızı
 
@@ -34,6 +38,8 @@ Bilgi paneli başlığın özetini ve afişini, ayrıca o anki kalite, video ve 
 ## Resim İçinde Resim (iPhone ve iPad)
 
 Başka uygulamaları kullanırken yüzen bir pencerede izlemeye devam etmek için Resim İçinde Resim düğmesine dokunun. Resim İçinde Resim, sistem oynatıcısıyla oynatılan yayınlarda çalışır; VLC motoru gereken yayınlarda henüz desteklenmez.
+
+<DocScreenshot shot="phone-03-player" alt="iPhone'da yatay, kontrolleri açık Livo oynatıcısı" caption="iPhone'da oynatıcı" />
 
 ## AirPlay (iPhone ve iPad, Premium)
 

@@ -19,6 +19,11 @@ Premium does not add channels or content. Livo never sells IPTV subscriptions.
 
 Premium is an auto-renewing subscription with **monthly**, **3-month** and **yearly** plans. The subscription screen (**Go Premium**) shows each plan's price in your currency. When a plan comes with a free trial, the screen shows the trial length and the price you pay after it. You are not charged during the trial if you cancel before it ends.
 
+<ScreenshotRow>
+  <DocScreenshot shot="phone-09-premium" alt="Livo Premium plans on iPhone" caption="iPhone" />
+  <DocScreenshot shot="tablet-09-premium" alt="Livo Premium plans on iPad" caption="iPad" />
+</ScreenshotRow>
+
 Payment is charged to your Apple Account or Google Play account when you confirm. The subscription renews automatically at the same price and period unless you cancel it at least 24 hours before the end of the current period.
 
 ## Manage or cancel
@@ -33,3 +38,5 @@ Payment is charged to your Apple Account or Google Play account when you confirm
 - On a new device or after reinstalling, choose **Restore Purchases** on the subscription screen or in **Settings → Subscription**.
 - To use a promo code on Apple devices, choose **Redeem Code**.
 - If restore finds nothing, check that the device is signed in to the App Store with the same Apple Account you used to buy Premium or redeem the code.
+
+<DocScreenshot shot="tv-09-premium" alt="Livo Premium plans on Apple TV" caption="Premium on Apple TV" />

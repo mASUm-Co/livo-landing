@@ -7,6 +7,8 @@ slug: /intro
 
 Livo Player, sahip olduğunuz IPTV listeleri için bir video oynatıcıdır. Bir M3U listesi ya da Xtream Codes hesabı ekleyin; Livo bunu Canlı TV, Filmler ve Diziler olarak düzenler, üstüne TV rehberi, İzlemeye Devam Et ve tam donanımlı bir oynatıcı sunar.
 
+<DocScreenshot shot="tv-01-home" alt="Apple TV'de Canlı, Filmler ve Diziler ile Livo ana ekranı" caption="Apple TV'de Livo" />
+
 :::info Livo içerik sağlamaz
 Livo kanal, yayın ya da IPTV aboneliği satmaz ve içermez. Sağlayıcınızdan aldığınız kendi listeniz gerekir.
 :::

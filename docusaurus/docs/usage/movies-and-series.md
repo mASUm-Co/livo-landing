@@ -6,9 +6,13 @@ sidebar_position: 6
 
 Open **Movies** or **Series** from Home. Items are listed by the groups in your playlist. Use search to find a title, and sort a list by **Name**, **Date**, **Newest** or **Watch state**.
 
+<DocScreenshot shot="tv-07-movies" alt="Movies grid on Apple TV" caption="Movies on Apple TV" />
+
 ## Details
 
 Livo adds posters, an overview, cast and director from its movie database when it can match the title. Opening a title shows:
+
+<DocScreenshot shot="tv-05-movie-detail" alt="Movie detail page on Apple TV with poster, overview and Play" caption="A movie detail page on Apple TV" />
 
 - **Overview** and **Cast**
 - **Technical**: resolution, video codec, dynamic range, frame rate, bitrate, size, audio tracks (with codec and channels) and subtitles
@@ -26,6 +30,11 @@ Livo adds posters, an overview, cast and director from its movie database when i
 - Opening a series takes you to your **next episode**: the one you are watching, or the one after the last you finished.
 - When an episode ends, an **up-next countdown** starts the next one. Choose **Play Now** to start it right away, or cancel the countdown.
 - In the player, use **Previous Episode** and **Next Episode** to move through the season.
+
+<ScreenshotRow>
+  <DocScreenshot shot="phone-06-series-detail" alt="Series detail on iPhone with season buttons" caption="iPhone" />
+  <DocScreenshot shot="tablet-06-series-detail" alt="Series detail on iPad with seasons and episodes" caption="iPad" />
+</ScreenshotRow>
 
 ## Recently Added
 

@@ -38,4 +38,9 @@ Premium üyeler reklam görmez.
 | **Dil** | Uygulama dili |
 | **Üyelik** | Durum, satın alma, geri yükleme, kod kullanma, iptal |
 
+<ScreenshotRow>
+  <DocScreenshot shot="phone-08-settings" alt="iPhone'da Livo ayarları" caption="iPhone" />
+  <DocScreenshot shot="tablet-08-settings" alt="iPad'de Livo ayarları" caption="iPad" />
+</ScreenshotRow>
+
 Ayrıca bkz. [Gizlilik Politikası](/privacy-policy) ve [Kullanım Koşulları](/terms).

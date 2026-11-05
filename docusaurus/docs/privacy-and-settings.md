@@ -38,4 +38,9 @@ Premium members see no ads.
 | **Language** | App language |
 | **Subscription** | Status, buy, restore, redeem, cancel |
 
+<ScreenshotRow>
+  <DocScreenshot shot="phone-08-settings" alt="Livo settings on iPhone" caption="iPhone" />
+  <DocScreenshot shot="tablet-08-settings" alt="Livo settings on iPad" caption="iPad" />
+</ScreenshotRow>
+
 See also the [Privacy Policy](/privacy-policy) and [Terms of Use](/terms).

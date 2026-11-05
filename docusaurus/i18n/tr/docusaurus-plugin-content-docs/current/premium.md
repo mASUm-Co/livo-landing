@@ -19,6 +19,11 @@ Premium kanal ya da içerik eklemez. Livo hiçbir zaman IPTV aboneliği satmaz.
 
 Premium, **aylık**, **3 aylık** ve **yıllık** planları olan, otomatik yenilenen bir aboneliktir. Abonelik ekranı (**Premium'a Geç**) her planın fiyatını kendi para biriminizde gösterir. Bir planla ücretsiz deneme sunuluyorsa ekran deneme süresini ve sonrasında ödeyeceğiniz fiyatı gösterir. Deneme bitmeden iptal ederseniz ücret alınmaz.
 
+<ScreenshotRow>
+  <DocScreenshot shot="phone-09-premium" alt="iPhone'da Livo Premium planları" caption="iPhone" />
+  <DocScreenshot shot="tablet-09-premium" alt="iPad'de Livo Premium planları" caption="iPad" />
+</ScreenshotRow>
+
 Ödeme, satın almayı onayladığınızda Apple Hesabınızdan ya da Google Play hesabınızdan alınır. Abonelik, mevcut dönemin bitiminden en az 24 saat önce iptal edilmezse aynı fiyat ve süreyle otomatik olarak yenilenir.
 
 ## Yönetme ya da iptal
@@ -33,3 +38,5 @@ Premium, **aylık**, **3 aylık** ve **yıllık** planları olan, otomatik yenil
 - Yeni bir cihazda ya da yeniden kurulumdan sonra abonelik ekranında ya da **Ayarlar → Üyelik**'te **Satın Alımı Geri Yükle**'yi seçin.
 - Apple cihazlarda promosyon kodu kullanmak için **Kodu Kullan**'ı seçin.
 - Geri yükleme bir şey bulamazsa cihazın App Store'da, Premium'u satın aldığınız ya da kodu kullandığınız Apple Hesabı ile oturum açtığından emin olun.
+
+<DocScreenshot shot="tv-09-premium" alt="Apple TV'de Livo Premium planları" caption="Apple TV'de Premium" />

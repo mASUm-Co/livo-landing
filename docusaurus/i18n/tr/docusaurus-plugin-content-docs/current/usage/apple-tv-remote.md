@@ -12,6 +12,8 @@ Livo, Apple TV'de Siri Remote ile kullanılmak üzere tasarlandı.
 - Bir adım geri gitmek için **Geri** (eski kumandalarda **Menu**) tuşuna basın: oynatıcıdan listeye, listeden gruplara, oradan ana sayfaya.
 - **Favorilere Ekle**, **İzleme Listesine Ekle** ve **İzlendi olarak işaretle** gibi hızlı işlemler için bir karta basılı tutun.
 
+<DocScreenshot shot="tv-01-home" alt="Apple TV'de Livo ana ekranı" caption="Apple TV'de ana sayfa" />
+
 ## Canlı
 
 - Kenar çubuğunda **Tümü**, **Favoriler** ve listenizin grupları yer alır.
@@ -20,6 +22,8 @@ Livo, Apple TV'de Siri Remote ile kullanılmak üzere tasarlandı.
 ## Diziler
 
 Dizi ızgarasında, ardından sezon ve bölümlerde kumandayla gezinin. Bir dizi sıradaki bölümünüzde açılır.
+
+<DocScreenshot shot="tv-06-series-detail" alt="Apple TV'de afiş, özet ve sezonlarla dizi detayı" caption="Apple TV'de bir dizi" />
 
 ## Oynatıcı
 
@@ -36,3 +40,5 @@ Devam Ettiklerim öğelerinizi Top Shelf'te görmek için Livo'yu Apple TV ana e
 ## Telefonunuzdan kaynak ekleyin
 
 Apple TV'de **QR ile IPTV Kaynağı Ekle**'yi seçin, kodu okutun ve liste ya da Xtream bilgilerini telefonunuzda yazın. Bkz. [M3U listesi ekleyin](/docs/getting-started/add-m3u-playlist#apple-tv-ve-android-tvde-qr-ile-ekleyin).
+
+<DocScreenshot shot="tv-04-add-source" alt="Apple TV'de QR eşleştirme ekranı" caption="Apple TV'de QR eşleştirme" />

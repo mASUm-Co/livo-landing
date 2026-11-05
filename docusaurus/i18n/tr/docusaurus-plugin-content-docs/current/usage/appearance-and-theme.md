@@ -6,6 +6,8 @@ sidebar_position: 8
 
 ## Tema
 
+<DocScreenshot shot="tv-08-settings" alt="Apple TV'de Livo ayarları" caption="Apple TV'de Ayarlar" />
+
 **Ayarlar → Görünüm**: **Aydınlık**, **Karanlık** ya da **Otomatik**'i seçin. Otomatik, cihazınızın sistem ayarını izler.
 
 ## Uygulama dili

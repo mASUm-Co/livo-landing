@@ -8,6 +8,8 @@ sidebar_position: 7
 
 Başladığınız her şey ilerlemenizle birlikte ana sayfadaki **Devam Ettiklerim** satırında görünür. Dizilerde sezon ve bölüm de yazar, örneğin *S02 • E05*.
 
+<DocScreenshot shot="tablet-01-home" alt="iPad ana ekranında Devam Ettiklerim ve Yeni Eklenenler satırları" caption="iPad'de Devam Ettiklerim" />
+
 - Bir öğeyi seçerek **Devam et** ya da **Baştan Başla**'yı seçin.
 - Bir öğeye uzun basarak **Listeden çıkar** ya da **İzlendi olarak işaretle**'yi seçin.
 - **Hepsini temizle** satırı boşaltır.

@@ -10,6 +10,8 @@ sidebar_position: 3
 4. Sağlayıcınızdan aldığınız **M3U URL**'sini yapıştırın.
 5. **Aktif kaynak** açık kalsın ve **Kaydet**'e dokunun.
 
+<DocScreenshot shot="phone-04-add-source" alt="iPhone'da adı ve M3U adresi doldurulmuş kaynak ekleme formu" caption="iPhone'da M3U listesi ekleme" />
+
 Livo listeyi indirir ve liste öğeleri bu şekilde işaretlenmişse **Canlı**, **Filmler** ve **Diziler** olarak ayırır. Büyük listelerin ilk yüklemesi biraz sürebilir.
 
 ## TV rehberi
@@ -23,6 +25,8 @@ Birden fazla kaynak ekleyebilirsiniz. Canlı, Filmler ve Diziler'de yalnızca **
 ## Apple TV ve Android TV'de: QR ile ekleyin
 
 Uzun bir adresi kumandayla yazmak yavaştır. TV'de **QR ile IPTV Kaynağı Ekle**'yi seçin, kodu telefonunuzla okutun ve listeyi telefonda yazın. TV kaynağı kaydeder, eşleştirme ekranı kendiliğinden kapanır. QR kodun süresi birkaç dakika sonra dolar; yeni kod için **Tekrar dene**'yi seçin.
+
+<DocScreenshot shot="tv-04-add-source" alt="Apple TV'de QR kodu ve eşleştirme kodu gösteren QR eşleştirme ekranı" caption="Kodu telefonunuzla okutun, listeyi telefonda yazın" />
 
 ## Yüklenmiyorsa
 

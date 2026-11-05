@@ -7,6 +7,8 @@ slug: /intro
 
 Livo Player is a video player for the IPTV playlists you already have. Add an M3U playlist or an Xtream Codes account and Livo organizes it into Live TV, Movies and Series, with a TV guide, Continue Watching and a full-featured player.
 
+<DocScreenshot shot="tv-01-home" alt="Livo home screen on Apple TV with Live, Movies and Series" caption="Livo on Apple TV" />
+
 :::info Livo does not provide content
 Livo does not sell or include any channels, streams or IPTV subscriptions. You need your own playlist from your provider.
 :::
