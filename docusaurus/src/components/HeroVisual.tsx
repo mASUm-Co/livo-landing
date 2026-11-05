@@ -1,5 +1,6 @@
 import useBaseUrl from '@docusaurus/useBaseUrl';
-import {HERO_IMAGE_ASSETS} from './heroImageAssets';
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+import {getHeroImageAssets, type HeroImageAsset} from './heroImageAssets';
 import styles from './HeroVisual.module.css';
 
 type DeviceShot = {
@@ -19,7 +20,9 @@ type DeviceShot = {
 
 export default function HeroVisual(): JSX.Element {
   const withBaseUrl = useBaseUrl;
-  const buildSrcSet = (asset: (typeof HERO_IMAGE_ASSETS)[keyof typeof HERO_IMAGE_ASSETS]) =>
+  const {i18n} = useDocusaurusContext();
+  const HERO_IMAGE_ASSETS = getHeroImageAssets(i18n.currentLocale);
+  const buildSrcSet = (asset: HeroImageAsset) =>
     asset.sources.map((source) => `${withBaseUrl(source.src)} ${source.width}w`).join(', ');
 
   const shots: DeviceShot[] = [
