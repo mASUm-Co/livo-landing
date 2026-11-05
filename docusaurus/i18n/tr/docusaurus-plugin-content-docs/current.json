@@ -1,0 +1,18 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.docsSidebar.category.Getting started": {
+    "message": "Başlarken",
+    "description": "The label for category 'Getting started' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.Using Livo": {
+    "message": "Livo'yu kullanma",
+    "description": "The label for category 'Using Livo' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.Troubleshooting guides": {
+    "message": "Sorun giderme rehberleri",
+    "description": "The label for category 'Troubleshooting guides' in sidebar 'docsSidebar'"
+  }
+}
