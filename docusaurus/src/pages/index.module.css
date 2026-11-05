@@ -323,6 +323,10 @@
   margin: 0;
 }
 
+.spotlight:nth-child(even) {
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.4fr);
+}
+
 .spotlight:nth-child(even) .spotlightMedia,
 .spotlight:nth-child(even) .spotlightMediaPortrait {
   order: 2;
@@ -366,7 +370,8 @@
 }
 
 @media (max-width: 900px) {
-  .spotlight {
+  .spotlight,
+  .spotlight:nth-child(even) {
     grid-template-columns: 1fr;
     gap: 1.25rem;
   }

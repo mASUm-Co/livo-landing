@@ -347,7 +347,7 @@ export default function Home(): JSX.Element {
                         loading="lazy"
                         decoding="async"
                         width={portrait ? 720 : 1600}
-                        height={portrait ? 1564 : 900}
+                        height={portrait ? 1564 : spot.image === 'tv-player' ? 480 : 900}
                       />
                     </div>
                     <figcaption className={styles.spotlightCopy}>
