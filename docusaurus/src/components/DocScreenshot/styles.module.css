@@ -1,0 +1,61 @@
+.figure {
+  margin: 1.25rem auto 1.75rem;
+  text-align: center;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 0.75rem;
+  border: 1px solid var(--ifm-color-emphasis-200);
+  box-shadow: var(--site-shadow-soft);
+}
+
+.phone {
+  max-width: 300px;
+}
+
+.phone .image {
+  border-radius: 1.75rem;
+}
+
+.tablet {
+  max-width: 420px;
+}
+
+.tablet .image {
+  border-radius: 1.25rem;
+}
+
+.phoneLandscape,
+.tv,
+.strip {
+  max-width: 760px;
+}
+
+.caption {
+  margin-top: 0.6rem;
+  font-size: 0.875rem;
+  color: var(--ifm-color-emphasis-700);
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 1.25rem 0 1.75rem;
+}
+
+.row .figure {
+  margin: 0;
+  flex: 1 1 220px;
+}
+
+.row .tv,
+.row .phoneLandscape {
+  flex-basis: 420px;
+}

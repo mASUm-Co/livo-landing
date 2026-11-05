@@ -12,6 +12,8 @@ TV rehberi canlı kanallarınızda ne olduğunu gösterir: o anki program, kalan
 - **Apple TV önizleme paneli**: seçili kanalın **Bugünün akışı**.
 - **Canlı oynatıcı**: zaman çizelgesiyle o anki program ve sıradaki program.
 
+<DocScreenshot shot="tv-02-live" alt="Apple TV'de önizleme panelinde program rehberiyle kanal ızgarası" caption="Apple TV önizleme panelinde rehber bilgisi" />
+
 Program saatleri cihazınızın saat dilimine, bölgesine ve 12/24 saat ayarına göre gösterilir.
 
 ## Rehber nereden gelir

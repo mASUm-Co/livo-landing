@@ -23,6 +23,11 @@ No sign-up is needed to use Livo.
 
 After your source loads, Home shows:
 
+<ScreenshotRow>
+  <DocScreenshot shot="phone-01-home" alt="Livo home screen on iPhone" caption="iPhone" />
+  <DocScreenshot shot="tablet-01-home" alt="Livo home screen on iPad with Continue Watching and Recently Added" caption="iPad" />
+</ScreenshotRow>
+
 - **Live**, **Movies** and **Series** cards to open each library
 - **Continue Watching** for anything you started
 - **Recently Added** movies and series from your playlist

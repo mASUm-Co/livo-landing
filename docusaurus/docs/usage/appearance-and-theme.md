@@ -6,6 +6,8 @@ sidebar_position: 8
 
 ## Theme
 
+<DocScreenshot shot="tv-08-settings" alt="Livo settings on Apple TV" caption="Settings on Apple TV" />
+
 **Settings → Appearance**: choose **Light**, **Dark** or **Auto**. Auto follows your device's system setting.
 
 ## App language

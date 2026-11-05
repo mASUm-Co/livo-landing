@@ -12,6 +12,8 @@ The TV guide shows what is on your live channels: the current programme, how muc
 - **Apple TV preview panel**: the selected channel's schedule for today.
 - **Live player**: the running programme with a progress timeline and the next programme.
 
+<DocScreenshot shot="tv-02-live" alt="Channel grid on Apple TV with the programme guide in the preview panel" caption="Guide data in the Apple TV preview panel" />
+
 Programme times follow your device's time zone, region and 12/24-hour setting.
 
 ## Where the guide comes from

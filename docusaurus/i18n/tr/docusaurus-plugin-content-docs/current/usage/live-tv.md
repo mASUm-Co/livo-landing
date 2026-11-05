@@ -6,6 +6,11 @@ sidebar_position: 5
 
 Ana sayfadan **Canlı**'yı açın. Kanallar listenizdeki gruplara göre sıralanır.
 
+<ScreenshotRow>
+  <DocScreenshot shot="phone-02-live" alt="iPhone'da canlı kanal listesi" caption="iPhone" />
+  <DocScreenshot shot="tablet-02-live" alt="iPad'de her kartta yayındaki programla canlı kanal ızgarası" caption="iPad" />
+</ScreenshotRow>
+
 ## Gruplar, Tümü ve Favoriler
 
 - Kanallarını görmek için **Gruplar** kenar çubuğundan bir grup seçin. **Tümü** bütün kanalları, **Favoriler** kaydettiğiniz kanalları listeler.
@@ -26,6 +31,8 @@ Birçok liste aynı kanalı birkaç kez içerir, örneğin `SD`, `HD`, `FHD` ve 
 ## Kanallarda TV rehberi
 
 Rehber varsa kanal kartlarında şu an yayındaki program, kalan süre ve sıradaki program görünür. Apple TV'de bir önizleme paneli seçili kanalın günlük akışını gösterir. Bkz. [TV rehberi](/docs/usage/tv-guide).
+
+<DocScreenshot shot="tv-02-live" alt="Apple TV'de yayındaki programı gösteren önizleme paneliyle canlı kanallar" caption="Apple TV'de önizleme paneli" />
 
 ## Canlı oynatıcıda
 

@@ -6,6 +6,8 @@ sidebar_position: 6.5
 
 ## Two playback engines
 
+<DocScreenshot shot="tv-03-player" alt="Livo player on Apple TV with the controls shown" caption="The player on Apple TV" />
+
 Livo plays most streams with the device's own player. If a stream uses a format that player cannot open, Livo switches to a second engine (VLC) automatically. HLS, MP4, MKV and most common stream formats play out of the box.
 
 ## Audio and subtitles
@@ -13,6 +15,8 @@ Livo plays most streams with the device's own player. If a stream uses a format 
 - Use the audio and subtitle buttons (on Apple TV, the info panel's **Audio & Subtitles** tab) to change tracks. Track lists show the language and the audio codec.
 - Set the tracks that should start automatically in **Settings → Playback → Default audio language** and **Default subtitle language**. They are applied when playback starts.
 - Change how subtitles look in **Settings → Subtitle Appearance**, see [Appearance and language](/docs/usage/appearance-and-theme).
+
+<DocScreenshot shot="tv-player-tracks" alt="Player info panel on Apple TV open on Audio & Subtitles with several audio and subtitle languages" caption="Audio & Subtitles in the info panel" />
 
 ## Playback speed
 
@@ -34,6 +38,8 @@ The info panel shows the title's overview and poster, and a **Technical** tab wi
 ## Picture in Picture (iPhone and iPad)
 
 Tap the Picture in Picture button to keep watching in a floating window while you use other apps. Picture in Picture works with streams played by the system player. Streams that need the VLC engine do not support it yet.
+
+<DocScreenshot shot="phone-03-player" alt="Livo player on iPhone in landscape with the controls shown" caption="The player on iPhone" />
 
 ## AirPlay (iPhone and iPad, Premium)
 

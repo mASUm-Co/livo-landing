@@ -6,6 +6,11 @@ sidebar_position: 5
 
 Open **Live** from Home. Channels are listed by the groups in your playlist.
 
+<ScreenshotRow>
+  <DocScreenshot shot="phone-02-live" alt="Live channel list on iPhone" caption="iPhone" />
+  <DocScreenshot shot="tablet-02-live" alt="Live channel grid on iPad with the running programme on each card" caption="iPad" />
+</ScreenshotRow>
+
 ## Groups, All and Favorites
 
 - Pick a group in the **Groups** sidebar to see its channels. **All** lists every channel and **Favorites** lists the channels you saved.
@@ -26,6 +31,8 @@ If you pick a quality yourself in the **Quality** menu, Livo keeps that quality 
 ## TV guide on channels
 
 When a guide is available, channel cards show the programme that is on now, how much time is left and what is up next. On Apple TV a preview panel shows the selected channel's schedule. See [TV guide](/docs/usage/tv-guide).
+
+<DocScreenshot shot="tv-02-live" alt="Live channels on Apple TV with the preview panel showing the running programme" caption="The preview panel on Apple TV" />
 
 ## In the live player
 

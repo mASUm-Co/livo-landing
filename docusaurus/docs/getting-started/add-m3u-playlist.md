@@ -10,6 +10,8 @@ sidebar_position: 3
 4. Paste the **M3U URL** from your provider.
 5. Keep **Active source** on and tap **Save**.
 
+<DocScreenshot shot="phone-04-add-source" alt="The add source form on iPhone with a name and an M3U address filled in" caption="Adding an M3U playlist on iPhone" />
+
 Livo downloads the playlist and sorts it into **Live**, **Movies** and **Series** when the playlist marks its items that way. Large playlists can take a moment on the first load.
 
 ## TV guide
@@ -23,6 +25,8 @@ You can add more than one source. Only the **active** source is shown in Live, M
 ## On Apple TV and Android TV: add with QR
 
 Typing a long URL with a remote is slow. On the TV, choose **Add IPTV Source With QR**, scan the code with your phone and type the playlist there. The TV saves the source and the pairing screen closes by itself. The QR code expires after a few minutes; choose **Retry** to get a new one.
+
+<DocScreenshot shot="tv-04-add-source" alt="QR pairing screen on Apple TV with a QR code and the pairing link" caption="Scan the code with your phone and type the playlist there" />
 
 ## If it does not load
 

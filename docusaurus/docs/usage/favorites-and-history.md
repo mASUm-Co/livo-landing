@@ -8,6 +8,8 @@ sidebar_position: 7
 
 Anything you start appears in **Continue Watching** on Home, with your progress. Series show the season and episode, for example *S02 • E05*.
 
+<DocScreenshot shot="tablet-01-home" alt="Continue Watching and Recently Added rows on the iPad home screen" caption="Continue Watching on iPad" />
+
 - Select an item to **Resume**, or choose **Start Over**.
 - Long-press an item to **Remove from Continue Watching** or **Mark as watched**.
 - **Clear All** empties the row.

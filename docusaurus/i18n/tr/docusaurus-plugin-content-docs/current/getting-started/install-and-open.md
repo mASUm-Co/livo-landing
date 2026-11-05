@@ -23,6 +23,11 @@ Livo'yu kullanmak için üyelik kaydı gerekmez.
 
 Kaynağınız yüklendikten sonra ana sayfada şunlar yer alır:
 
+<ScreenshotRow>
+  <DocScreenshot shot="phone-01-home" alt="iPhone'da Livo ana ekranı" caption="iPhone" />
+  <DocScreenshot shot="tablet-01-home" alt="iPad'de Devam Ettiklerim ve Yeni Eklenenler ile Livo ana ekranı" caption="iPad" />
+</ScreenshotRow>
+
 - Kütüphaneleri açan **Canlı**, **Filmler** ve **Diziler** kartları
 - Başladığınız her şey için **Devam Ettiklerim**
 - Listenizdeki **Yeni Eklenenler** filmler ve diziler

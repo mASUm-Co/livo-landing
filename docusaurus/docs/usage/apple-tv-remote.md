@@ -12,6 +12,8 @@ Livo is built for the Siri Remote on Apple TV.
 - Press **Back** (**Menu** on older remotes) to step back one level: from the player to the list, from a list to its groups, and from there to Home.
 - Press and hold on a card for quick actions such as **Add to Favorites**, **Add to Watchlist** and **Mark as watched**.
 
+<DocScreenshot shot="tv-01-home" alt="Livo home screen on Apple TV" caption="Home on Apple TV" />
+
 ## Live
 
 - The sidebar lists **All**, **Favorites** and your playlist's groups.
@@ -20,6 +22,8 @@ Livo is built for the Siri Remote on Apple TV.
 ## Series
 
 Browse the series grid, then seasons and episodes with the remote. A series opens at your next episode.
+
+<DocScreenshot shot="tv-06-series-detail" alt="Series detail on Apple TV with poster, overview and seasons" caption="A series on Apple TV" />
 
 ## Player
 
@@ -36,3 +40,5 @@ Put Livo in the top row of the Apple TV Home Screen to see your Continue Watchin
 ## Add a source from your phone
 
 On the Apple TV, choose **Add IPTV Source With QR**, scan the code and type the playlist or Xtream details on your phone. See [Add an M3U playlist](/docs/getting-started/add-m3u-playlist#on-apple-tv-and-android-tv-add-with-qr).
+
+<DocScreenshot shot="tv-04-add-source" alt="QR pairing screen on Apple TV" caption="QR pairing on Apple TV" />
