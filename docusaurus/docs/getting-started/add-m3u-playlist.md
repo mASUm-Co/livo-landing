@@ -26,7 +26,7 @@ You can add more than one source. Only the **active** source is shown in Live, M
 
 Typing a long URL with a remote is slow. On the TV, choose **Add IPTV Source With QR**, scan the code with your phone and type the playlist there. The TV saves the source and the pairing screen closes by itself. The QR code expires after a few minutes; choose **Retry** to get a new one.
 
-<DocScreenshot shot="tv-04-add-source" alt="QR pairing screen on Apple TV with a QR code and a pairing code" caption="Scan the code with your phone and type the playlist there" />
+<DocScreenshot shot="tv-04-add-source" alt="QR pairing screen on Apple TV with a QR code and the pairing link" caption="Scan the code with your phone and type the playlist there" />
 
 ## If it does not load
 

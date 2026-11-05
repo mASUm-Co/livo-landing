@@ -8,7 +8,7 @@ Open **Live** from Home. Channels are listed by the groups in your playlist.
 
 <ScreenshotRow>
   <DocScreenshot shot="phone-02-live" alt="Live channel list on iPhone" caption="iPhone" />
-  <DocScreenshot shot="tablet-02-live" alt="Live channels with the groups sidebar on iPad" caption="iPad" />
+  <DocScreenshot shot="tablet-02-live" alt="Live channel grid on iPad with the running programme on each card" caption="iPad" />
 </ScreenshotRow>
 
 ## Groups, All and Favorites

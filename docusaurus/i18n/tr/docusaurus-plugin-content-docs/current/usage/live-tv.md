@@ -8,7 +8,7 @@ Ana sayfadan **Canlı**'yı açın. Kanallar listenizdeki gruplara göre sırala
 
 <ScreenshotRow>
   <DocScreenshot shot="phone-02-live" alt="iPhone'da canlı kanal listesi" caption="iPhone" />
-  <DocScreenshot shot="tablet-02-live" alt="iPad'de gruplar kenar çubuğuyla canlı kanallar" caption="iPad" />
+  <DocScreenshot shot="tablet-02-live" alt="iPad'de her kartta yayındaki programla canlı kanal ızgarası" caption="iPad" />
 </ScreenshotRow>
 
 ## Gruplar, Tümü ve Favoriler

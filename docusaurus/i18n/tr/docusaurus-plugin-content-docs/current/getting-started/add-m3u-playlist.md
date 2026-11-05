@@ -26,7 +26,7 @@ Birden fazla kaynak ekleyebilirsiniz. Canlı, Filmler ve Diziler'de yalnızca **
 
 Uzun bir adresi kumandayla yazmak yavaştır. TV'de **QR ile IPTV Kaynağı Ekle**'yi seçin, kodu telefonunuzla okutun ve listeyi telefonda yazın. TV kaynağı kaydeder, eşleştirme ekranı kendiliğinden kapanır. QR kodun süresi birkaç dakika sonra dolar; yeni kod için **Tekrar dene**'yi seçin.
 
-<DocScreenshot shot="tv-04-add-source" alt="Apple TV'de QR kodu ve eşleştirme kodu gösteren QR eşleştirme ekranı" caption="Kodu telefonunuzla okutun, listeyi telefonda yazın" />
+<DocScreenshot shot="tv-04-add-source" alt="Apple TV'de QR kodu ve eşleştirme bağlantısı gösteren QR eşleştirme ekranı" caption="Kodu telefonunuzla okutun, listeyi telefonda yazın" />
 
 ## Yüklenmiyorsa
 
