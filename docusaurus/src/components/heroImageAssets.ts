@@ -9,38 +9,42 @@ export type HeroImageAsset = {
   }>;
 };
 
-export const HERO_IMAGE_ASSETS = {
-  tv: {
-    alt: 'IPTV player interface on Apple TV',
-    width: 1200,
-    height: 780,
-    src: '/img/hero/AppleTV-4K.App-1200.webp',
-    sources: [
-      {src: '/img/hero/AppleTV-4K.App-800.webp', width: 800},
-      {src: '/img/hero/AppleTV-4K.App-1200.webp', width: 1200},
-      {src: '/img/hero/AppleTV-4K.App-1600.webp', width: 1600},
-    ],
+type HeroDevice = 'tv' | 'tablet' | 'phone';
+type HeroLocale = 'en' | 'tr';
+
+// Device frames around the #723 store showcase captures (Livo-1.x UI, synthetic posters).
+// Regenerate together with the store screenshots, one set per site locale.
+const SIZES: Record<HeroDevice, {width: number; height: number; widths: number[]}> = {
+  tv: {width: 1200, height: 776, widths: [800, 1200, 1600]},
+  tablet: {width: 560, height: 732, widths: [240, 360, 560]},
+  phone: {width: 420, height: 857, widths: [240, 320, 420]},
+};
+
+const ALTS: Record<HeroLocale, Record<HeroDevice, string>> = {
+  en: {
+    tv: 'Livo home screen on Apple TV with Live, Movies and Series',
+    tablet: 'Livo home screen on iPad with Continue Watching and Recently Added',
+    phone: 'Livo live TV channel list on iPhone',
   },
-  tablet: {
-    alt: 'IPTV player interface on tablet',
-    width: 700,
-    height: 500,
-    src: '/img/hero/iPadPro11-M4-SpaceGray-Landscape-480.webp',
-    sources: [
-      {src: '/img/hero/iPadPro11-M4-SpaceGray-Landscape-320.webp', width: 320},
-      {src: '/img/hero/iPadPro11-M4-SpaceGray-Landscape-480.webp', width: 480},
-      {src: '/img/hero/iPadPro11-M4-SpaceGray-Landscape-700.webp', width: 700},
-    ],
+  tr: {
+    tv: "Apple TV'de Canlı, Filmler ve Diziler ile Livo ana ekranı",
+    tablet: "iPad'de Devam Ettiklerim ve Yeni Eklenenler ile Livo ana ekranı",
+    phone: "iPhone'da Livo canlı TV kanal listesi",
   },
-  phone: {
-    alt: 'Continue watching IPTV on mobile',
-    width: 420,
-    height: 860,
-    src: '/img/hero/iPhone17ProMax-Silver-Portrait-320.webp',
-    sources: [
-      {src: '/img/hero/iPhone17ProMax-Silver-Portrait-240.webp', width: 240},
-      {src: '/img/hero/iPhone17ProMax-Silver-Portrait-320.webp', width: 320},
-      {src: '/img/hero/iPhone17ProMax-Silver-Portrait-420.webp', width: 420},
-    ],
-  },
-} as const satisfies Record<'tv' | 'tablet' | 'phone', HeroImageAsset>;
+};
+
+export function getHeroImageAssets(locale: string): Record<HeroDevice, HeroImageAsset> {
+  const loc: HeroLocale = locale.toLowerCase().startsWith('tr') ? 'tr' : 'en';
+  const build = (device: HeroDevice): HeroImageAsset => {
+    const {width, height, widths} = SIZES[device];
+    const path = (w: number) => `/img/hero/v2/${loc}/${device}-${w}.webp`;
+    return {
+      alt: ALTS[loc][device],
+      width,
+      height,
+      src: path(widths[1]),
+      sources: widths.map((w) => ({src: path(w), width: w})),
+    };
+  };
+  return {tv: build('tv'), tablet: build('tablet'), phone: build('phone')};
+}

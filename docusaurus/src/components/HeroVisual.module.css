@@ -5,14 +5,24 @@
   margin: 0 auto;
   padding: 1.5rem;
   overflow: hidden;
-  border: 1px solid rgba(16, 53, 40, 0.07);
+  border: 1px solid rgba(124, 91, 62, 0.08);
   border-radius: 2rem;
+  /* Close to the page cream so the panel reads as a soft tint, not a white card. */
   background:
-    radial-gradient(circle at 78% 20%, rgba(150, 97, 255, 0.14), transparent 26%),
-    radial-gradient(circle at 18% 72%, rgba(255, 108, 186, 0.10), transparent 22%),
-    linear-gradient(180deg, rgba(255, 255, 255, 0.98), rgba(247, 241, 234, 0.96));
-  box-shadow: 0 28px 80px rgba(124, 91, 62, 0.10);
+    radial-gradient(circle at 78% 20%, rgba(150, 97, 255, 0.10), transparent 30%),
+    radial-gradient(circle at 18% 72%, rgba(255, 108, 186, 0.08), transparent 26%),
+    linear-gradient(180deg, rgba(248, 238, 226, 0.85), rgba(244, 233, 220, 0.75));
+  box-shadow: 0 24px 64px rgba(124, 91, 62, 0.06);
   isolation: isolate;
+}
+
+[data-theme='dark'] .visualShell {
+  border-color: rgba(255, 255, 255, 0.06);
+  background:
+    radial-gradient(circle at 78% 20%, rgba(150, 97, 255, 0.14), transparent 30%),
+    radial-gradient(circle at 18% 72%, rgba(255, 108, 186, 0.10), transparent 26%),
+    linear-gradient(180deg, rgba(28, 37, 44, 0.9), rgba(20, 28, 33, 0.85));
+  box-shadow: 0 24px 64px rgba(0, 0, 0, 0.28);
 }
 .visualGlowA,
 .visualGlowB {
@@ -50,9 +60,8 @@
 .deviceFrame {
   position: absolute;
   overflow: hidden;
-  border-radius: 1rem;
   background: transparent;
-  box-shadow: 0 28px 68px rgba(69, 49, 28, 0.16);
+  filter: drop-shadow(0 22px 30px rgba(69, 49, 28, 0.18));
 }
 
 .tvFrame {
@@ -64,14 +73,11 @@
 }
 
 .tabletFrame {
-  right: 15%;
-  bottom: 2%;
-  width: 36%;
+  right: 22%;
+  bottom: -2%;
+  width: 25%;
   z-index: 2;
-  opacity: 0.9;
   transform: rotate(-3deg);
-  opacity: 0.88;
-  filter: saturate(0.95);
 }
 
 .phoneFrame {
@@ -90,15 +96,15 @@
 }
 
 .landscapeScreenWrap {
-  aspect-ratio: 4300 / 2780;
+  aspect-ratio: 1200 / 776;
 }
 
 .tabletScreenWrap {
-  aspect-ratio: 2640 / 1880;
+  aspect-ratio: 560 / 732;
 }
 
 .phoneScreenWrap {
-  aspect-ratio: 1470 / 3000;
+  aspect-ratio: 420 / 857;
 }
 
 .screenImage {
@@ -138,8 +144,8 @@
   }
 
   .tabletFrame {
-    width: 35%;
-    right: 1%;
+    width: 26%;
+    right: 20%;
     bottom: 1%;
   }
 
@@ -169,9 +175,9 @@
   }
 
   .tabletFrame {
-    right: 1%;
+    right: 20%;
     bottom: 0;
-    width: 37%;
+    width: 27%;
     transform: rotate(-3deg);
   }
 
