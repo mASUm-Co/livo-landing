@@ -14,7 +14,7 @@ sidebar_position: 9
 
 ## Hâlâ çalışmıyor mu?
 
-[livoiptv@gmail.com](mailto:livoiptv@gmail.com) adresine şunlarla birlikte yazın:
+[livoplayer@gmail.com](mailto:livoplayer@gmail.com) adresine şunlarla birlikte yazın:
 
 - uygulama sürümü (**Ayarlar → Versiyon**)
 - cihaz modeliniz

@@ -40,4 +40,4 @@ Uygulama Türkçe, İngilizce, İspanyolca (İspanya ve Meksika), Rusça ve Çin
 
 ## Yardım mı gerekiyor?
 
-[Sorun giderme](/docs/troubleshooting) ve [SSS](/docs/faq) sayfalarına bakın ya da [livoiptv@gmail.com](mailto:livoiptv@gmail.com) adresine yazın.
+[Sorun giderme](/docs/troubleshooting) ve [SSS](/docs/faq) sayfalarına bakın ya da [livoplayer@gmail.com](mailto:livoplayer@gmail.com) adresine yazın.

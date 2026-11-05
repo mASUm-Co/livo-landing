@@ -40,4 +40,4 @@ The app is available in English, Turkish, Spanish (Spain and Mexico), Russian an
 
 ## Need help?
 
-See [Troubleshooting](/docs/troubleshooting), the [FAQ](/docs/faq), or write to [livoiptv@gmail.com](mailto:livoiptv@gmail.com).
+See [Troubleshooting](/docs/troubleshooting), the [FAQ](/docs/faq), or write to [livoplayer@gmail.com](mailto:livoplayer@gmail.com).
