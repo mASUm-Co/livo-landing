@@ -2,6 +2,12 @@
 sidebar_position: 10
 ---
 
-# Giris veya kimlik dogrulama hatalari
+# Giriş hataları
 
-Bu makaleyi Xtream giris hatalari icin kullanin.
+Bunlar Xtream Codes hesapları için geçerlidir.
+
+- `http://` ya da `https://` ve port dahil **Sunucu URL**'sini kontrol edin, örneğin `http://host:port`.
+- **Kullanıcı Adı** ve **Şifre**'de yazım hatası olup olmadığını kontrol edin. Büyük/küçük harfe duyarlıdırlar.
+- Sağlayıcınıza hesabın etkin olup olmadığını ve süresinin dolup dolmadığını sorun.
+- Sağlayıcının sunucusu geçici olarak kapalı olabilir. Daha sonra tekrar deneyin.
+- Bazı sağlayıcılar aynı anda bağlanabilecek cihaz sayısını sınırlar.
