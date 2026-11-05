@@ -14,7 +14,7 @@ sidebar_position: 9
 
 ## Still not working?
 
-Write to [livoiptv@gmail.com](mailto:livoiptv@gmail.com) with:
+Write to [livoplayer@gmail.com](mailto:livoplayer@gmail.com) with:
 
 - the app version (**Settings → Version**)
 - your device model

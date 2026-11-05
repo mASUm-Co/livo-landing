@@ -38,4 +38,4 @@ Listeleriniz ve giriş bilgileriniz cihazınızda saklanır ve analitiğe hiç g
 
 ## Destek ekibine nasıl ulaşırım?
 
-[livoiptv@gmail.com](mailto:livoiptv@gmail.com) adresine yazın.
+[livoplayer@gmail.com](mailto:livoplayer@gmail.com) adresine yazın.

@@ -38,4 +38,4 @@ Choose **Restore Purchases** in **Settings → Subscription**. See [Premium](/do
 
 ## How do I contact support?
 
-Write to [livoiptv@gmail.com](mailto:livoiptv@gmail.com).
+Write to [livoplayer@gmail.com](mailto:livoplayer@gmail.com).
